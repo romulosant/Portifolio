@@ -11,3 +11,14 @@
     align-items: center;
     flex-direction: row;
 }
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 330px); /* 3 colunas */
+    gap: 15px;
+    max-width: 500px;
+    margin: auto;
+    justify-content: center;
+    
+  }
