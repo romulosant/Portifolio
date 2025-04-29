@@ -7,6 +7,28 @@
   background-position: center;
   height: 100vh;
   width: 100%;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 16px;
+  }
+
+  ul li {
+    display: flex;
+    width: 138px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: #292c34;
+    border-radius: 27px;
+    gap: 8px;
+    padding: 9px 10px;
+    font: var(--text-md-2);
+    color: var(--gray-500);
+  }
 }
 
 .avatar {
@@ -174,6 +196,84 @@ header p {
     p {
       font: var(--text-sm-2);
       color: var(--gray-400);
+    }
+  }
+}
+
+/*  quarta section  */
+.contato {
+  background-image: url(../assets/img/Background_Contacts.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  text-align: center;
+
+
+
+ .title{
+   display: flex;
+   flex-direction: column;
+    gap: 8px;
+  }
+
+  span {
+    margin-block: 8px 8px;
+    color: var(--purple);
+    font: var(--subtitle);
+  }
+
+  h2 {
+    font: var(--title-md);
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  li {
+    text-decoration: none;
+    list-style: none;
+  }
+
+  li a {
+    text-decoration: none;
+    list-style: none;
+
+    div {
+      border-radius: 8px;
+      padding: 20px 20px;
+      width: 400px;
+      height: 68px;
+      background-color: #292c34;
+
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      img {
+        width: 28px;
+        height: 28px;
+        margin-right: 15px;
+      }
+
+      p {
+        font: var(--text-md-2);
+        color: var(--gray-400);
+      }
+
+      span {
+        width: 16px;
+        height: 16px;
+        margin-left: auto; 
+        margin-top: auto;
+        
+      }
     }
   }
 }

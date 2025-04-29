@@ -35,24 +35,3 @@ body {
   color: var(--gray-600);
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  gap: 16px;
-}
-
-ul li {
-  display: flex;
-  width: 138px;
-  height: 40px;
-  justify-content: center;
-  align-items: center;
-  background-color: #292c34;
-  border-radius: 27px;
-  gap: 8px;
-  padding: 9px 10px;
-  font: var(--text-md-2);
-  color: var(--gray-500);
-}
