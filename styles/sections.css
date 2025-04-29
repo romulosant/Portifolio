@@ -3,7 +3,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+  height: 110vh;
   width: 100%;
 }
 
@@ -49,8 +49,7 @@ header p {
   margin-bottom: 80px;
 }
 .arrow {
-  position: relative;
-  top: 90px;
+  margin-block: 90px;
 }
 
 .arrow:hover {
