@@ -1,9 +1,12 @@
+
+/* primeira section  */
+
 .intro {
   background-image: url(../assets/img/Background_Intro.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 110vh;
+  height: 100vh;
   width: 100%;
 }
 
@@ -56,3 +59,7 @@ header p {
   filter: brightness(0) saturate(100%) invert(84%) sepia(0%) saturate(750%)
     hue-rotate(180deg) brightness(85%) contrast(92%);
 }
+
+
+
+/* seguda section  */
