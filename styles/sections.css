@@ -1,3 +1,10 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
 /* primeira section  */
 
 .intro {
@@ -86,6 +93,7 @@ header p {
 .projects {
   background-color: var(--gray-200);
   padding-block: 110px;
+  height: 100vh;
 
   header {
     display: flex;
